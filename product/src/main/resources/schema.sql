@@ -1,0 +1,5 @@
+CREATE TABLE Product(
+   creditId INTEGER NOT NULL PRIMARY KEY,
+   productName VARCHAR(255) NOT NULL,
+   value INTEGER NOT NULL,
+);

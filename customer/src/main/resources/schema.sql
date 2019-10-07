@@ -1,0 +1,6 @@
+CREATE TABLE Customer (
+    creditId INTEGER NOT NULL PRIMARY KEY,
+    pesel VARCHAR(255) NOT NULL,
+    firstName VARCHAR(255) NOT NULL,
+    surname VARCHAR(255) NOT NULL
+);
