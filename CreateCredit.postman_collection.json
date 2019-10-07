@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "871e0eb3-803b-4aad-995d-f65dcb9f47ca",
+		"name": "CreateCredit",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/v1/credit",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"credit\": {\n\t\t\"creditName\": \"Test credit\"\n\t},\n\t\"customer\": {\n\t\t\"firstName\": \"Robert\",\n\t\t\"surname\": \"Martin\",\n\t\t\"pesel\": \"52010117854\"\n\t},\n\t\"product\": {\n\t\t\"productName\": \"Book\",\n\t\t\"value\": 32\n\t}\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/credit",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"credit"
+					]
+				},
+				"description": "CreateCredit"
+			},
+			"response": []
+		}
+	]
+}
