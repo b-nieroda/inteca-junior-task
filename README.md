@@ -15,4 +15,4 @@ Czego nie udało się zrobić:
 - rozmieścić komponenty jako kontenery Docker;
 
 Uwagi:
-Według mnie model bazy danych można byłoby zmienić na przedstawiony w pliku model_bazy.png. Tabela Credit zawiera id klienta, który złożył kredyt, wartości oraz id produktu. W ten sposób nie będze zduplikowanych klientów oraz produktów.
+Według mnie model bazy danych można byłoby zmienić na przedstawiony w pliku model_bazy.png. Tabela Credit zawiera id klienta, który złożył kredyt oraz id produktu. W ten sposób nie będze zduplikowanych klientów oraz produktów.
